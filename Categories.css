@@ -192,3 +192,54 @@ body {
 .book-detail img {
     max-width: 200px;
 }
+#bookList{
+    margin-top: 20px;
+    background-color: #e4d7cf;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bolder;
+
+}
+#bookList img{
+    height: 150px;
+    width: 100px;
+    box-shadow:2px 2px 2px 2px grey;
+}
+
+#bookList button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+#bookDetail{
+    background-color:#eefdf7;
+    /* height: 550px; */
+    height: auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
+    border: solid #ccc;
+}
+
+#bookDetail img{
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 4px rgb(207, 203, 203);
+}
+
+
+#favoriteList {
+    margin-top: 20px;
+    background-image:url(./images/favorite.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    font-weight: bolder;
+}
